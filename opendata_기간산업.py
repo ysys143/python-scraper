@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 import requests
 
 """
@@ -20,7 +14,10 @@ query3 = f"insttCdNm=&insttCd=&searchMainYn=&viewPage={viewPage}&rowPage={rowPag
 
 url = baseURL+query1+query2+query3
 
+왜 안되는지 모르겠다~~~~
+
 """
+
 baseURL = "https://www.open.go.kr/othicInfo/infoList/infoList.ajax?"
 query = "kwd=%EA%B8%B0%EA%B0%84%EC%82%B0%EC%97%85%EC%95%88%EC%A0%95&insttSeCd=&eduYn=N&startDate=20090912&endDate=20200911&insttCdNm=&insttCd=&searchMainYn=&sort=s&viewPage=1&rowPage=10000&totalPage=20&url=%2FothicInfo%2FinfoList%2FinfoList.ajax&callBackFn=searchFn_callBack"
 
